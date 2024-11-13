@@ -1,0 +1,83 @@
+# Dependências
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Coverage e Testes
+coverage/
+.nyc_output/
+*.lcov
+
+# Arquivos do Sistema
+.DS_Store
+Thumbs.db
+*.log
+logs/
+*.swp
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build e Distribuição
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Arquivos locais
+*.local
+
+# TypeScript (se aplicável)
+*.tsbuildinfo
+.tscache/
+
+# Certificados e Chaves
+*.pem
+*.key
+*.cert
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Arquivos específicos da aplicação
+uploads/
+public/uploads/
+data/
+
+# Outros
+.git/
+.gitattributes
+.htaccess
+*.pid
+*.seed
+*.pid.lock
+.eslintcache
+.node_repl_history
