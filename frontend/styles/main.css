@@ -1,5 +1,11 @@
+
+html{
+    overflow: hidden;
+}
+
 body{
     background-color:#591769;
+    width: 100%;
 }
 
 main{
@@ -28,6 +34,33 @@ header p{
     font-family: 'Montserrat';
 }
 
-header-main{
-    
+
+.header-main{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-main ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.header-main figure img{
+    width: 300px;
+}
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-main a{
+    color:#000000;
 }
