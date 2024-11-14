@@ -21,9 +21,9 @@
         <p>IA VIC - Tire suas dúvidas sobre o colégio aqui</p>
     </header>
     <main>
-        <div class="container-main">
+    <div class="container-main">
         <div class="header-main">
-            <figure>
+            <figure id="school-logo">
                 <img src="assets/images/logo_vic.png" alt="Logo Colégio Victorino">
             </figure>
             <nav class="nav-header">
@@ -36,8 +36,14 @@
             </nav>
         </div>
         <div class="chat-main">
-            <div id="chat-output"></div>
-            <div id="input-input"></div>
+            <div id="chat-output">
+                <figure >
+                    <img id="bot-chat" src="assets/images/bot-chat.png" alt="Imagem do assitente">
+                </figure>
+                <p>Olá, bem vindo ao VIC AI. Como posso te ajudar hoje?
+                </p>
+            </div>
+            <input type="text" name="" id="chat-input" placeholder="Message VIC AI22"><button><i class="fa-fa search"></i></button>
             <div class="about-chat">
                 <ul>
                     <li id="about-tech-course">📚   Sobre o curso técnico</li>
