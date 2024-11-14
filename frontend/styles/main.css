@@ -14,7 +14,7 @@ main{
 
 header{
     background-color:#591769;
-    padding: 40px 0;
+    padding: 15px 0;
     border-bottom: 10px solid #1E4F05;
     font-weight: bold;
     display: flex;
@@ -25,12 +25,16 @@ header{
 }
 
 figure img{
-    width: 70px;
+    width: 50px;
+}
+
+#school-logo{
+    cursor: pointer;
 }
 
 header p{
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-family: 'Montserrat';
 }
 
@@ -40,6 +44,8 @@ header p{
     gap: 50px;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .header-main ul{
@@ -49,16 +55,20 @@ header p{
     gap: 40px;
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .header-main figure img{
-    width: 300px;
+    width: 200px;
 }
 
 .container-main{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-main a{
