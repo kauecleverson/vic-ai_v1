@@ -1,0 +1,33 @@
+body{
+    background-color:#591769;
+}
+
+main{
+    background-color: #fff;
+}
+
+header{
+    background-color:#591769;
+    padding: 40px 0;
+    border-bottom: 10px solid #1E4F05;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+figure img{
+    width: 70px;
+}
+
+header p{
+    color: #fff;
+    font-size: 1.3em;
+    font-family: 'Montserrat';
+}
+
+header-main{
+    
+}
