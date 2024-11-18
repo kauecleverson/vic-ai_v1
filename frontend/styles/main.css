@@ -74,3 +74,9 @@ header p{
 .header-main a{
     color:#000000;
 }
+
+.nav-header a:hover{
+    color: #2F2F2F;
+    transition: 0.2s;
+    font-size: 1.05em;
+}
