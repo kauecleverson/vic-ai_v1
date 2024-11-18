@@ -73,6 +73,7 @@ header p{
 
 .header-main a{
     color:#000000;
+    transition: transform 0.2s, color 0.2s;
 }
 
 .nav-header a:hover{
